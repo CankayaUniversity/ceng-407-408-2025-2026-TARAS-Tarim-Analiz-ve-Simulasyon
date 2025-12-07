@@ -2,7 +2,7 @@
 .DS_Store
 Thumbs.db
 
-# Donanim folder specific ignores
+# Donanim specific ignores
 # Build directories
 Donanim/*/build/
 Donanim/*/dist/
@@ -78,4 +78,91 @@ Donanim/*/test_results.txt
 
 # Misc
 Donanim/*/.gitkeep
-# ----------------------------------
+
+
+# Mobil specific ignores
+Mobil/android/
+Mobil/ios/
+
+# Node/npm
+Mobil/node_modules/
+Mobil/npm-debug.log*
+Mobil/yarn-debug.log*
+Mobil/yarn-error.log*
+Mobil/package-lock.json
+
+# Android
+Mobil/android/build/
+Mobil/.gradle/
+Mobil/local.properties
+Mobil/*.iml
+Mobil/*.hprof
+Mobil/.cxx/
+Mobil/*.keystore
+Mobil/.kotlin/
+
+# iOS
+Mobil/ios/build/
+Mobil/build/
+Mobil/*.pbxuser
+Mobil/*.mode1v3
+Mobil/*.mode2v3
+Mobil/*.perspectivev3
+Mobil/xcuserdata/
+Mobil/*.xccheckout
+Mobil/*.moved-aside
+Mobil/DerivedData/
+Mobil/*.hmap
+Mobil/*.ipa
+Mobil/*.xcuserstate
+Mobil/**/.xcode.env.local
+Mobil/**/Pods/
+
+# React Native / Expo
+Mobil/*.jsbundle
+Mobil/.metro-health-check*
+Mobil/.expo/
+Mobil/.expo-shared/
+Mobil/dist/
+Mobil/web-build/
+
+# IDE - Mobil
+Mobil/.vscode/
+Mobil/.idea/
+Mobil/*.swp
+Mobil/*.swo
+Mobil/*~
+
+# Environment - Mobil
+Mobil/.env
+Mobil/.env.local
+Mobil/.env.*.local
+
+# Logs - Mobil
+Mobil/logs/
+Mobil/vendor/bundle/
+
+# Backups - Mobil
+Mobil/*.backup
+Mobil/*.old
+Mobil/*.bak
+
+# TypeScript - Mobil
+Mobil/*.tsbuildinfo
+
+# Testing - Mobil
+Mobil/coverage/
+
+# Fastlane - Mobil
+Mobil/**/fastlane/report.xml
+Mobil/**/fastlane/Preview.html
+Mobil/**/fastlane/screenshots
+Mobil/**/fastlane/test_output
+
+# Yarn - Mobil
+Mobil/.yarn/*
+!Mobil/.yarn/patches
+!Mobil/.yarn/plugins
+!Mobil/.yarn/releases
+!Mobil/.yarn/sdks
+!Mobil/.yarn/versions

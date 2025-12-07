@@ -1,0 +1,22 @@
+{
+  "name": "main",
+  "displayName": "TarasMobil",
+  "slug": "tarasmobil",
+  "version": "1.0.0",
+  "assetBundlePatterns": ["**/*"],
+  "plugins": [
+    [
+      "expo-camera",
+      {
+        "cameraPermission": "Allow TarasMobil to access your camera to detect diseases."
+      }
+    ]
+  ],
+  "ios": {
+    "supportsTabletMode": true,
+    "bundleIdentifier": "com.tarasmobil.app"
+  },
+  "android": {
+    "package": "com.tarasmobil.app"
+  }
+}
